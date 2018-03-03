@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Testing of Permission set for a case</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Testing of Permission set</label>
+</PermissionSet>
