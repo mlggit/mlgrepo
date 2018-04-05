@@ -43,6 +43,8 @@ backDeploy.data.results = {};
 backDeploy.data.currentGrid = {};
 backDeploy.data.permissions = [];
 backDeploy.data.attachmentIds = [];
+backDeploy.data.gridItems = []; // MY added for fileDifferences grid data.
+backDeploy.data.gridConflictedItems = []; // MY added for fileDifferences grid data.
 
 backDeploy.polling = {};
 backDeploy.polling.INTERVAL = 60;
@@ -1198,4 +1200,238 @@ backDeploy.reinitiateCanvas = function() {
     $copado('#boxCanvas canvas').remove();
     backDeploy.config.canvas = $copado('#boxCanvas').connectSVG();
     backDeploy.getsetCoordinates();
+};
+// Branch management dialog labels and size spans changes to display correct label with correct data size
+backDeploy.assignCBMTabLabels = function(elem, newText){
+    elem.text(newText);
+}
+// MY & FO : View state issue fix for file differences tab on branch management page.
+// By using following function we parse the branch management calculatation result and display differences in JQX grid
+// @see backDeploy initFileDifferences
+backDeploy.calculateFileDifferences = function(jsonObject,conf){
+   var fileDiffSize = 0;
+   var autoResolveSize = 0;
+   backDeploy.data.gridConflictedItems = [];
+   try{
+        for(var i=0; i < jsonObject.length; i++){
+            var item = jsonObject[i];
+            console.log('backDeploy.uiData.stepId',backDeploy.uiData.stepId);
+            if(item["id"] === backDeploy.uiData.stepId){
+                console.log('backDeploy.calculateFileDifference:::backDeploy.uiData.type',backDeploy.uiData.type);
+
+                if( backDeploy.uiData.type === "pull"){
+                    var commitsBehindNumber = item["commitsBehind"];
+                    var commitsBehindLabel = $copado('#commBehind');
+                    backDeploy.assignCBMTabLabels(commitsBehindLabel,commitsBehindNumber);
+                    $copado('[Id$=commitBehindNum]').val(commitsBehindNumber);
+                    backDeploy.data.gridItems = item["filesMergedBehind"];
+                    fileDiffSize = backDeploy.data.gridItems.length;
+                    var fileDiffLabel = $copado('#filediff');
+                    backDeploy.assignCBMTabLabels(fileDiffLabel,fileDiffSize);
+                    var elem = item["filesMergedConflictBehind"];
+                    if(backDeploy.data.gridItems){
+                        if(conf.dataMode && conf.dataMode == 'mergeDiff'){
+                            var t = backDeploy.data.gridItems;
+                            backDeploy.data.gridItems = [];
+                            backDeploy.data.gridItems = backDeploy.filterGridMetadata(t,'d','update');
+                            backDeploy.assignCBMTabLabels($copado('#mergeddiffsize'),backDeploy.data.gridItems.length);
+                        } else if(!conf.dataMode){
+                            var fileDiffElem = backDeploy.filterGridMetadata(backDeploy.data.gridItems,'d','update');
+                            var fileMergedDiffLabel = $copado('#mergeddiffsize');
+                            backDeploy.assignCBMTabLabels(fileMergedDiffLabel,fileDiffElem.length);
+                        }
+                    }
+                    if(backDeploy.data.gridConflictedItems){
+                        for(var j = 0; j < elem.length;j++){
+                            backDeploy.data.gridConflictedItems.push({f:elem[j]})
+                        }
+                        autoResolveSize = backDeploy.data.gridConflictedItems.length;
+                        var autoResolvedLabel = $copado('#autoresolved');
+                        backDeploy.assignCBMTabLabels(autoResolvedLabel,autoResolveSize);
+                    }
+                } else {
+                    var commitsAheadNumber = item["commitsAhead"];
+                    var commitsAheadLabel = $copado('#commAhead');
+                    backDeploy.assignCBMTabLabels(commitsAheadLabel,commitsAheadNumber);
+                    $copado('[Id$=commitAheadNum]').val(commitsAheadNumber);
+                    backDeploy.data.gridItems = item["filesMergedAhead"];
+                    var elem = item["filesMergedConflictAhead"];
+                    if(backDeploy.data.gridItems){
+                        fileDiffSize = backDeploy.data.gridItems.length;
+                        var fileDiffLabel = $copado('#filediff');
+                        backDeploy.assignCBMTabLabels(fileDiffLabel,fileDiffSize);
+                        if(conf.dataMode && conf.dataMode == 'mergeDiff'){
+                            var t = backDeploy.data.gridItems;
+                            backDeploy.data.gridItems = backDeploy.filterGridMetadata(t,'d','update');
+                            backDeploy.assignCBMTabLabels($copado('#mergeddiffsize'),backDeploy.data.gridItems.length);
+                        } else if(!conf.dataMode){
+                            var t = backDeploy.data.gridItems;
+                            var fileDiffElem = backDeploy.filterGridMetadata(t,'d','update');
+                            var fileMergedDiffLabel = $copado('#mergeddiffsize');
+                            backDeploy.assignCBMTabLabels(fileMergedDiffLabel,fileDiffElem.length);
+                        }
+                    }
+                    if(backDeploy.data.gridConflictedItems){
+                        for(var k = 0; k < elem.length;k++){
+                            backDeploy.data.gridConflictedItems.push({f:elem[k]})
+                        }
+                        autoResolveSize = backDeploy.data.gridConflictedItems.length;
+                        var autoResolvedLabel = $copado('#autoresolved');
+                        console.log('autoresolvedsize : '+autoResolveSize);
+                        backDeploy.assignCBMTabLabels(autoResolvedLabel,autoResolveSize);
+                    }
+                }
+            }
+        }
+   } catch(e){
+    console.error(e);
+   }
+};
+
+backDeploy.filterGridMetadata = function (jsonArray, jsonField, filter) {
+    return $copado.grep(jsonArray, function (n, i) {
+        return n[jsonField] == filter;
+    });
+};
+
+
+backDeploy.initFileDifferences = function(conf, initF) {
+    if(initF) initF();
+    var jsonObject = JSON.parse(backDeploy.uiData.flowResult)
+    backDeploy.calculateFileDifferences(jsonObject,conf);
+    var datalocal;
+    if(conf.gridMode !== 'fileConflicts'){
+        datalocal = backDeploy.data.gridItems;
+    } else {
+        datalocal = backDeploy.data.gridConflictedItems;
+    }
+
+    if(!datalocal) return;
+    var datafields = [];
+    if(conf.gridMode !== 'fileConflicts'){
+        datafields = [
+             {name: 'd', type: 'string'},
+             {name: 'f', type: 'string'},
+             {name: 'l', type: 'string'}
+         ];
+    } else {
+        datafields = [
+            {name: 'f', type: 'string'}
+        ];
+    }
+    var source = {
+        localdata: datalocal,
+        datafields: datafields
+    };
+    if(!$copado.jqx) return;
+    var dataAdapter = new $copado.jqx.dataAdapter(source);
+
+    var cellsrenderer = function (row, column, value, defaultHtml) {
+
+        var color = false;
+        if (value == 'delete' ) {
+          color = '#FFC6C6';
+        }else if (value == 'update' ) {
+          color = '#FFFFE3';
+        }else if (value == 'create'){
+          color = '#CCFFCC'
+        } else {
+             var element = $copado(defaultHtml);
+             element.append('<div style="overflow: hidden; text-overflow: ellipsis; padding-bottom: 2px; text-align: center; margin-right: 2px; margin-left: 4px; margin-top: 4px;">Auto Resolved</div>');
+             element.css({'background-color' : '#565b63', 'text-align': 'center' , 'color' : 'white'});
+             return element[0].outerHTML;
+        }
+        if(color){
+          var element = $copado(defaultHtml);
+          element.css({ 'background-color': color, 'text-align': 'center'});
+          return element[0].outerHTML;
+        }
+        return defaultHtml;
+    };
+
+    var cellsrendererView = function (row, column, value, defaultHtml) {
+        if(datalocal[row].d == 'update'){
+          var diffFileName = datalocal[row].f;
+          var diffType;
+          if(backDeploy.uiData.type === 'merge'){
+             diffType = 'div-m-m';
+          } else {
+              diffType = 'div-p-m';
+          }
+          var element = $copado(defaultHtml );
+          element.append(' <a href="javascript:void(0);" onclick="showFileModal(this);" data-stepId="'+backDeploy.uiData.stepId+'" file-name="'+diffFileName+'" data-type="'+diffType+'">Show Differences</a>');
+          element.css({ 'cursor': 'pointer'});
+          return element[0].outerHTML;
+        }
+        return defaultHtml;
+    };
+
+
+    var diffColumns = [];
+    if(conf.gridMode !== 'fileConflicts'){
+          diffColumns = [
+          {
+              text: copadoLabels.type,
+              filtertype: 'checkedlist',
+              columntype : 'textbox',
+              editable: false,
+              datafield: 'd',
+              width: '20%',
+              cellsrenderer: cellsrenderer
+          },
+          {
+              text: 'File Path',
+              datafield: 'f',
+              filterable: true,
+              filtertype: 'textbox',
+              filtercondition: 'contains',
+              editable: false,
+              width: '60%'
+          },
+          {
+              text: '',
+              filterable : false,
+              editable: false,
+              datafield: 'lastUpdate',
+              width: '20%',
+              cellsrenderer: cellsrendererView
+          }
+      ];
+
+    } else {
+        diffColumns = [
+          {
+              text: copadoLabels.type,
+              filterable: false,
+              columntype : 'textbox',
+              editable: false,
+              width: '20%',
+              cellsrenderer: cellsrenderer
+          },
+          {
+              text: 'File Path',
+              datafield: 'f',
+              filterable: true,
+              filtertype: 'textbox',
+              filtercondition: 'contains',
+              editable: false,
+              width: '80%'
+          }
+      ];
+    }
+    var fileDifferencesGrid = $copado("#fileDiffGrid").jqxGrid({
+        width: '100%',
+        height: '90%',
+        source: dataAdapter,
+        pageable: true,
+        autoheight: false,
+        filterable: true,
+        sortable: true,
+        selectionmode: 'none',
+        pagesizeoptions: ['10', '50', '100', '500', '1000', '5000'],
+        pagesize: 200,
+        theme: 'base',
+        showfilterrow: true,
+        columns: diffColumns
+    })
 };

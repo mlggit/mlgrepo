@@ -332,6 +332,16 @@
         <fullName>YearStarted</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
+    <fields>
+        <fullName>test_custfield__c</fullName>
+        <description>test custfield</description>
+        <externalId>false</externalId>
+        <inlineHelpText>test custfield</inlineHelpText>
+        <label>test custfield</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>TextArea</type>
+    </fields>
     <listViews>
         <fullName>AllAccounts</fullName>
         <filterScope>Everything</filterScope>
