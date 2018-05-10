@@ -73,6 +73,18 @@
     <enableFeeds>true</enableFeeds>
     <enableHistory>false</enableHistory>
     <fields>
+        <fullName>A_new_picking__c</fullName>
+        <externalId>false</externalId>
+        <label>A new picking</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Value_Pickingz</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>AccountNumber</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
