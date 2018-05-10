@@ -35,6 +35,10 @@
                 <behavior>Edit</behavior>
                 <field>CampaignId</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Required</behavior>
+                <field>Fieldsopp__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
