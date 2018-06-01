@@ -11,15 +11,6 @@
         <won>false</won>
     </standardValue>
     <standardValue>
-        <fullName>Qualification</fullName>
-        <default>false</default>
-        <label>Qualification</label>
-        <closed>false</closed>
-        <forecastCategory>Pipeline</forecastCategory>
-        <probability>10</probability>
-        <won>false</won>
-    </standardValue>
-    <standardValue>
         <fullName>Needs Analysis</fullName>
         <default>false</default>
         <label>Needs Analysis</label>
