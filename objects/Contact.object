@@ -263,6 +263,24 @@
         <fullName>Title</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
+    <fields>
+        <fullName>qweqeqweqeq__c</fullName>
+        <externalId>false</externalId>
+        <label>qweqeqweqeq</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>typing_test_new_stuff__c</fullName>
+        <externalId>false</externalId>
+        <label>typing test new stuff</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
     <listViews>
         <fullName>AllContacts</fullName>
         <filterScope>Everything</filterScope>

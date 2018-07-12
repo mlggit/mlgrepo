@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fieldSets>
-        <label><!-- Criteria Page Fields --></label>
-        <name>Criteria_Page_Fields</name>
-    </fieldSets>
     <fields>
         <label><!-- Action --></label>
         <name>copado__Action__c</name>
@@ -88,16 +84,4 @@
         <label><!-- Severity --></label>
         <name>copado__Severity__c</name>
     </fields>
-    <recordTypes>
-        <label><!-- Copado --></label>
-        <name>Copado</name>
-    </recordTypes>
-    <recordTypes>
-        <label><!-- Other --></label>
-        <name>Other</name>
-    </recordTypes>
-    <webLinks>
-        <label><!-- Manage_Criteria --></label>
-        <name>copado__Manage_Criteria</name>
-    </webLinks>
 </CustomObjectTranslation>

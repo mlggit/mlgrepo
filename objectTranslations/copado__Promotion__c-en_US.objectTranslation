@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fieldSets>
-        <label><!-- Copado Header Fields --></label>
-        <name>Copado_Header_Fields</name>
-    </fieldSets>
-    <fieldSets>
-        <label><!-- Custom Fields --></label>
-        <name>CustomFields</name>
-    </fieldSets>
     <fields>
         <label><!-- Back Promotion --></label>
         <name>copado__Back_Promotion__c</name>
@@ -32,6 +24,11 @@
         <label><!-- Destination Org Credential --></label>
         <name>copado__Destination_Org_Credential__c</name>
         <relationshipLabel><!-- Promotions (Destination Org Credential) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Conflicts found in the selected metadata types are not auto-resolved by Copado when merging feature branches into the promotion branch. The conflicts can be manually resolved using Copado. --></help>
+        <label><!-- Exclude From Auto Resolve --></label>
+        <name>copado__Exclude_From_Auto_Resolve__c</name>
     </fields>
     <fields>
         <help><!-- The selected Project should be linked to an active Deployment Flow --></help>
