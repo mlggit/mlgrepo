@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
+        <help><!-- All user story feature branches are created out of the main branch of the Deployment Flow. If a Release base branch is specified, all feature branches of user stories linked to the Release will be created out of the base branch. --></help>
+        <label><!-- Base Branch --></label>
+        <name>copado__Base_Branch__c</name>
+    </fields>
+    <fields>
         <label><!-- Description --></label>
         <name>copado__Description__c</name>
     </fields>
@@ -33,8 +38,9 @@
             <translation><!-- Released --></translation>
         </picklistValues>
     </fields>
-    <webLinks>
-        <label><!-- Mass_add_to_Release --></label>
-        <name>copado__Mass_add_to_Release</name>
-    </webLinks>
+    <fields>
+        <help><!-- When a Promotion linked to this Release is merged into the Main Branch of the deployment flow, Copado will tag the Main Branch with this version number. This value is typically a major (e.g. v7), minor (v7.3) or patch (v7.3.2) release. --></help>
+        <label><!-- Version --></label>
+        <name>copado__Version__c</name>
+    </fields>
 </CustomObjectTranslation>

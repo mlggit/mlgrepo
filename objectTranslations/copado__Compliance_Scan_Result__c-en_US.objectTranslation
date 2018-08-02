@@ -83,12 +83,4 @@
         <name>copado__User_Story__c</name>
         <relationshipLabel><!-- Compliance Scan Results --></relationshipLabel>
     </fields>
-    <recordTypes>
-        <label><!-- Copado --></label>
-        <name>Copado</name>
-    </recordTypes>
-    <recordTypes>
-        <label><!-- Other --></label>
-        <name>Other</name>
-    </recordTypes>
 </CustomObjectTranslation>

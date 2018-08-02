@@ -31,6 +31,11 @@
         <name>copado__Current_SCA_Score__c</name>
     </fields>
     <fields>
+        <help><!-- If enabled, when a Back Promotion is completed and contains Metadata found in User Stories in the destination Environment, the status of the User Story Metadata records of these User Stories will be updated to &quot;Back Promoted&quot;. --></help>
+        <label><!-- Index Back Promotion metadata --></label>
+        <name>copado__Index_Back_Promotion_metadata__c</name>
+    </fields>
+    <fields>
         <label><!-- Last Compliance Scan Date --></label>
         <name>copado__Last_Compliance_Scan_Date__c</name>
     </fields>
@@ -70,8 +75,4 @@
             <translation><!-- Sandbox --></translation>
         </picklistValues>
     </fields>
-    <webLinks>
-        <label><!-- Find_Replace_Rule_Editor --></label>
-        <name>copado__Find_Replace_Rule_Editor</name>
-    </webLinks>
 </CustomObjectTranslation>

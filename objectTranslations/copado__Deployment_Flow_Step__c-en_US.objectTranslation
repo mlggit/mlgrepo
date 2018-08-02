@@ -32,6 +32,22 @@
         <relationshipLabel><!-- Deployment Flow Steps (Destination Environment) --></relationshipLabel>
     </fields>
     <fields>
+        <label><!-- Enable as Scratch Org Target --></label>
+        <name>copado__Enable_as_Scratch_Org_Destination__c</name>
+        <picklistValues>
+            <masterLabel>DX Patch Target</masterLabel>
+            <translation><!-- DX Patch Target --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DX Target</masterLabel>
+            <translation><!-- DX Target --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Default DX Target</masterLabel>
+            <translation><!-- Default DX Target --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
         <help><!-- Last date and time when the source and target branch were in Sync (no commits ahead or behind). --></help>
         <label><!-- Last Merge Base --></label>
         <name>copado__Last_Merge_Base__c</name>

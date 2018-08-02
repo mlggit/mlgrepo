@@ -270,6 +270,12 @@
                 <behavior>Readonly</behavior>
                 <field>copado__Triggers_Without_Coverage__c</field>
             </layoutItems>
+            <layoutItems>
+                <page>copado__AddTestClasses</page>
+                <showLabel>false</showLabel>
+                <showScrollbars>false</showScrollbars>
+                <width>0</width>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -558,7 +564,7 @@
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
     <summaryLayout>
-        <masterLabel>00h0Y0000012Iet</masterLabel>
+        <masterLabel>00h7F000003CKAt</masterLabel>
         <sizeX>4</sizeX>
         <sizeY>0</sizeY>
         <summaryLayoutStyle>Default</summaryLayoutStyle>
