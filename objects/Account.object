@@ -351,6 +351,35 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>Translating_test__c</fullName>
+        <externalId>false</externalId>
+        <label>Translating test</label>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>ENglish1</fullName>
+                    <default>false</default>
+                    <label>ENglish1</label>
+                </value>
+                <value>
+                    <fullName>ENglish2</fullName>
+                    <default>false</default>
+                    <label>ENglish2</label>
+                </value>
+                <value>
+                    <fullName>ENglish3</fullName>
+                    <default>false</default>
+                    <label>ENglish3</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Type</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
@@ -454,6 +483,21 @@
         <fullName>Test_Record_Type</fullName>
         <active>true</active>
         <label>Test Record Type</label>
+        <picklistValues>
+            <picklist>Translating_test__c</picklist>
+            <values>
+                <fullName>ENglish1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ENglish2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ENglish3</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
         <picklistValues>
             <picklist>AccountSource</picklist>
             <values>
