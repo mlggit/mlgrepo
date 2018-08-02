@@ -1,33 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fieldSets>
-        <label><!-- CBM Fields --></label>
-        <name>CBM_Fields</name>
-    </fieldSets>
-    <fieldSets>
-        <label><!-- Commit Files Information --></label>
-        <name>Commit_Files_Information</name>
-    </fieldSets>
-    <fieldSets>
-        <label><!-- Copado Header Fields --></label>
-        <name>Copado_Header_Fields</name>
-    </fieldSets>
-    <fieldSets>
-        <label><!-- Promotion Related List --></label>
-        <name>PromotionRelatedList</name>
-    </fieldSets>
-    <fieldSets>
-        <label><!-- SprintWall_MassUpdate --></label>
-        <name>SprintWall_MassUpdate</name>
-    </fieldSets>
-    <fieldSets>
-        <label><!-- Work Manager Columns --></label>
-        <name>Work_Manager_Columns</name>
-    </fieldSets>
-    <fieldSets>
-        <label><!-- Work Manager Relations --></label>
-        <name>Work_Manager_Relations</name>
-    </fieldSets>
     <fields>
         <label><!-- Acceptance Criteria Status --></label>
         <name>copado__Acceptance_Criteria_Status__c</name>
@@ -53,12 +25,21 @@
         <name>copado__Apex_Code_Coverage__c</name>
     </fields>
     <fields>
+        <label><!-- Apex Tests Passed --></label>
+        <name>copado__Apex_Tests_Passed__c</name>
+    </fields>
+    <fields>
         <label><!-- Backburner Rank --></label>
         <name>copado__Backburner_Rank__c</name>
     </fields>
     <fields>
         <label><!-- Backlog Rank --></label>
         <name>copado__Backlog_Rank__c</name>
+    </fields>
+    <fields>
+        <help><!-- Git branch which the feature branch is created from. This value is updated when committing in the user story and by default, it will be the main branch of the Deployment Flow or the base branch of the Release linked to the user story.e user story. --></help>
+        <label><!-- Base Branch --></label>
+        <name>copado__Base_Branch__c</name>
     </fields>
     <fields>
         <label><!-- Business Analyst --></label>
@@ -123,6 +104,10 @@
         <relationshipLabel><!-- User Stories (Developer) --></relationshipLabel>
     </fields>
     <fields>
+        <label><!-- Documentation Complete --></label>
+        <name>copado__Documentation_Complete__c</name>
+    </fields>
+    <fields>
         <label><!-- Environment --></label>
         <name>copado__Environment__c</name>
         <relationshipLabel><!-- User Stories --></relationshipLabel>
@@ -144,6 +129,19 @@
     <fields>
         <label><!-- Functional Specifications --></label>
         <name>copado__Functional_Specifications__c</name>
+    </fields>
+    <fields>
+        <help><!-- The git merge status of the latest pull request between the feature branch and the target branch. This value is provided by the Git Repository. If there is no value, the Git Repository did not provide one. --></help>
+        <label><!-- Git Merge Status --></label>
+        <name>copado__Git_Merge_Status__c</name>
+        <picklistValues>
+            <masterLabel>Conflicts Detected</masterLabel>
+            <translation><!-- Conflicts Detected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mergeable</masterLabel>
+            <translation><!-- Mergeable --></translation>
+        </picklistValues>
     </fields>
     <fields>
         <label><!-- Has Apex Code --></label>
@@ -174,6 +172,10 @@
     <fields>
         <label><!-- Legal --></label>
         <name>copado__Legal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manual Tests Passed --></label>
+        <name>copado__Manual_Tests_Passed__c</name>
     </fields>
     <fields>
         <label><!-- Metadata Types in Selection --></label>
@@ -525,6 +527,14 @@
         <name>copado__Priority__c</name>
     </fields>
     <fields>
+        <label><!-- Progress Status --></label>
+        <name>copado__Progress_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Progress --></label>
+        <name>copado__Progress__c</name>
+    </fields>
+    <fields>
         <label><!-- Project --></label>
         <name>copado__Project__c</name>
         <relationshipLabel><!-- User Stories --></relationshipLabel>
@@ -561,6 +571,10 @@
             <masterLabel>RunSpecifiedTests</masterLabel>
             <translation><!-- RunSpecifiedTests --></translation>
         </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Pull Requests Approved --></label>
+        <name>copado__Pull_Requests_Approved__c</name>
     </fields>
     <fields>
         <label><!-- QR Code --></label>
@@ -648,6 +662,12 @@
         <relationshipLabel><!-- User Stories (Test Script Owner) --></relationshipLabel>
     </fields>
     <fields>
+        <help><!-- A theme is a group of user stories which contribute to a common goal. It is the highest level of the user story hierarchy. On the other hand, an epic is a big user story that has to be divided into several user stories because it can&apos;t be completed within --></help>
+        <label><!-- Theme --></label>
+        <name>copado__Theme__c</name>
+        <relationshipLabel><!-- User Stories --></relationshipLabel>
+    </fields>
+    <fields>
         <label><!-- Total Story Points --></label>
         <name>copado__Total_Story_Points__c</name>
     </fields>
@@ -680,72 +700,4 @@
         <label><!-- So that... --></label>
         <name>copado__userStory_reason__c</name>
     </fields>
-    <recordTypes>
-        <label><!-- Bug --></label>
-        <name>Bug</name>
-    </recordTypes>
-    <recordTypes>
-        <label><!-- Investigation --></label>
-        <name>Investigation</name>
-    </recordTypes>
-    <recordTypes>
-        <label><!-- User Story --></label>
-        <name>User_Story</name>
-    </recordTypes>
-    <validationRules>
-        <errorMessage><!-- A cancellation reason must be given. --></errorMessage>
-        <name>copado__Cancellation_reason_required</name>
-    </validationRules>
-    <validationRules>
-        <errorMessage><!-- This User Story does not meet the required Apex coverage threshold to be promoted. --></errorMessage>
-        <name>copado__Promote_User_Story_Apex_validation</name>
-    </validationRules>
-    <webLinks>
-        <label><!-- Add_Apex_Tests --></label>
-        <name>copado__Add_Apex_Tests</name>
-    </webLinks>
-    <webLinks>
-        <label><!-- Add_Commits --></label>
-        <name>copado__Add_Commits</name>
-    </webLinks>
-    <webLinks>
-        <label><!-- Add_Metadata --></label>
-        <name>copado__Add_Metadata</name>
-    </webLinks>
-    <webLinks>
-        <label><!-- Assign_to_Release --></label>
-        <name>copado__Assign_to_Release</name>
-    </webLinks>
-    <webLinks>
-        <label><!-- Commit_Files --></label>
-        <name>copado__Commit_Files</name>
-    </webLinks>
-    <webLinks>
-        <label><!-- Import_to_User_Story --></label>
-        <name>copado__Import_to_User_Story</name>
-    </webLinks>
-    <webLinks>
-        <label><!-- Manage_Selenium_Tests --></label>
-        <name>copado__Manage_Selenium_Tests</name>
-    </webLinks>
-    <webLinks>
-        <label><!-- Mass_Add_User_Stories --></label>
-        <name>copado__Mass_Add_User_Stories</name>
-    </webLinks>
-    <webLinks>
-        <label><!-- Mass_Add_User_Stories_Sprint --></label>
-        <name>copado__Mass_Add_User_Stories_Sprint</name>
-    </webLinks>
-    <webLinks>
-        <label><!-- Run_Compliance_Scan --></label>
-        <name>copado__Run_Compliance_Scan</name>
-    </webLinks>
-    <webLinks>
-        <label><!-- Run_Static_Code_Analysis --></label>
-        <name>copado__Run_Static_Code_Analysis</name>
-    </webLinks>
-    <webLinks>
-        <label><!-- Static_Code_Analysis_Summary --></label>
-        <name>copado__Static_Code_Analysis_Summary</name>
-    </webLinks>
 </CustomObjectTranslation>
