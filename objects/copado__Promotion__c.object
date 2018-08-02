@@ -87,6 +87,11 @@
             <isRequired>false</isRequired>
         </availableFields>
         <availableFields>
+            <field>copado__Exclude_From_Auto_Resolve__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
             <field>Id</field>
             <isFieldManaged>false</isFieldManaged>
             <isRequired>false</isRequired>
@@ -162,6 +167,11 @@
     <fieldSets>
         <fullName>copado__CustomFields</fullName>
         <availableFields>
+            <field>copado__Back_Promotion__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
             <field>copado__Create_Full_Permission_Sets_Step__c</field>
             <isFieldManaged>false</isFieldManaged>
             <isRequired>false</isRequired>
@@ -188,6 +198,11 @@
         </availableFields>
         <availableFields>
             <field>copado__Destination_Org_Credential__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>copado__Exclude_From_Auto_Resolve__c</field>
             <isFieldManaged>false</isFieldManaged>
             <isRequired>false</isRequired>
         </availableFields>
@@ -324,6 +339,22 @@
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>copado__Exclude_From_Auto_Resolve__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Conflicts found in the selected metadata types are not auto-resolved by Copado when merging feature branches into the promotion branch. The conflicts can be manually resolved using Copado.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Conflicts found in the selected metadata types are not auto-resolved by Copado when merging feature branches into the promotion branch. The conflicts can be manually resolved using Copado.</inlineHelpText>
+        <label>Exclude From Auto Resolve</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>copado__Auto_Resolve_Exceptions</valueSetName>
+        </valueSet>
+        <visibleLines>5</visibleLines>
     </fields>
     <fields>
         <fullName>copado__Project__c</fullName>
@@ -475,5 +506,11 @@
         <customTabListAdditionalFields>copado__Status__c</customTabListAdditionalFields>
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>copado__Scratch_Orgs_Disabled_for_Back_Promoting</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(copado__Back_Promotion__c == true,ISPICKVAL(copado__Destination_Org_Credential__r.copado__Org_Type__c,&apos;Scratch Org&apos;))</errorConditionFormula>
+        <errorMessage>Back Promotions to Scratch Orgs are not allowed</errorMessage>
+    </validationRules>
     <visibility>Public</visibility>
 </CustomObject>

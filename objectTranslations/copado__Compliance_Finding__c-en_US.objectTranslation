@@ -14,12 +14,4 @@
         <label><!-- Severity --></label>
         <name>copado__Severity__c</name>
     </fields>
-    <recordTypes>
-        <label><!-- Copado --></label>
-        <name>Copado</name>
-    </recordTypes>
-    <recordTypes>
-        <label><!-- Other --></label>
-        <name>Other</name>
-    </recordTypes>
 </CustomObjectTranslation>
