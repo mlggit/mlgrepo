@@ -121,6 +121,21 @@
         <trackTrending>false</trackTrending>
     </fields>
     <fields>
+        <fullName>Fieldsopp__c</fullName>
+        <description>Fieldsopp</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Fieldsopp</inlineHelpText>
+        <label>Fieldsopp</label>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Value_Pickingz</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>IqScore</fullName>
         <trackTrending>false</trackTrending>
     </fields>
