@@ -374,9 +374,9 @@
             <valueSetDefinition>
                 <sorted>false</sorted>
                 <value>
-                    <fullName>ENglish1</fullName>
-                    <default>false</default>
-                    <label>ENglish1</label>
+                    <fullName>NewENglish1</fullName>
+                    <default>true</default>
+                    <label>NewENglish1</label>
                 </value>
                 <value>
                     <fullName>ENglish2</fullName>
