@@ -18,6 +18,10 @@
                 <behavior>Edit</behavior>
                 <field>RelationshipType</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Atests_relationsz__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
