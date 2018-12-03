@@ -44,6 +44,17 @@
     <enableFeeds>true</enableFeeds>
     <enableHistory>false</enableHistory>
     <fields>
+        <fullName>A_New_Improved_and_amazing_checkbox__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>ITS AMAZING!</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ITS AMAZING!ITS AMAZING!ITS AMAZING!</inlineHelpText>
+        <label>A New Improved and amazing checkbox</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>AccountId</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackTrending>false</trackTrending>
@@ -119,6 +130,21 @@
     <fields>
         <fullName>ExpectedRevenue</fullName>
         <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Fieldsopp__c</fullName>
+        <description>Fieldsopp</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Fieldsopp</inlineHelpText>
+        <label>Fieldsopp</label>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Value_Pickingz</valueSetName>
+        </valueSet>
     </fields>
     <fields>
         <fullName>IqScore</fullName>

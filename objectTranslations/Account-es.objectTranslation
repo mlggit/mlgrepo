@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
+        <label><!-- A new picking --></label>
+        <name>A_new_picking__c</name>
+    </fields>
+    <fields>
         <label><!-- Active --></label>
         <name>Active__c</name>
         <picklistValues>
@@ -15,7 +19,7 @@
     <fields>
         <label><!-- Case --></label>
         <name>Case__c</name>
-        <relationshipLabel><!-- Accounts --></relationshipLabel>
+        <relationshipLabel>Accounts In Spanish</relationshipLabel>
     </fields>
     <fields>
         <label><!-- Customer Priority --></label>
@@ -89,16 +93,16 @@
         <label><!-- Translating test --></label>
         <name>Translating_test__c</name>
         <picklistValues>
-            <masterLabel>ENglish1</masterLabel>
-            <translation>SPanish1</translation>
-        </picklistValues>
-        <picklistValues>
             <masterLabel>ENglish2</masterLabel>
             <translation>SPanish2</translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>ENglish3</masterLabel>
             <translation>SPanish3</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NewENglish1</masterLabel>
+            <translation>SPanish1</translation>
         </picklistValues>
     </fields>
     <fields>
@@ -127,12 +131,17 @@
         <name>tets_checkz__c</name>
     </fields>
     <recordTypes>
+        <description><!-- A_Testing_pickingz --></description>
+        <label><!-- A Testing pickingz --></label>
+        <name>A_Testing_pickingz</name>
+    </recordTypes>
+    <recordTypes>
         <label><!-- Test Record Type --></label>
         <name>Test_Record_Type</name>
     </recordTypes>
     <webLinks>
-        <label><!-- Billing --></label>
-        <name>Billing</name>
+        <label><!-- Billing_i_changed --></label>
+        <name>Billing_i_changed</name>
     </webLinks>
     <webLinks>
         <label><!-- Buttest --></label>

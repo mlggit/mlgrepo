@@ -228,23 +228,31 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N7F00000F5bl9</field>
+            <field>00N7F00000LeSXf</field>
+            <label>A New Improved and amazing checkbox</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7F00000F5KLm</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N7F00000F5blA</field>
+            <field>00N7F00000F5KLn</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N7F00000F5blB</field>
+            <field>00N7F00000N28Jc</field>
+            <label>Fieldsopp</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7F00000F5KLo</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N7F00000F5blC</field>
+            <field>00N7F00000F5KLp</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N7F00000F5blD</field>
+            <field>00N7F00000F5KLq</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -281,11 +289,13 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N7F00000F5bl9</field>
-            <field>00N7F00000F5blA</field>
-            <field>00N7F00000F5blB</field>
-            <field>00N7F00000F5blC</field>
-            <field>00N7F00000F5blD</field>
+            <field>00N7F00000LeSXf</field>
+            <field>00N7F00000F5KLm</field>
+            <field>00N7F00000F5KLn</field>
+            <field>00N7F00000N28Jc</field>
+            <field>00N7F00000F5KLo</field>
+            <field>00N7F00000F5KLp</field>
+            <field>00N7F00000F5KLq</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -442,23 +452,31 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N7F00000F5bl9</field>
+            <field>00N7F00000LeSXf</field>
+            <label>A New Improved and amazing checkbox</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7F00000F5KLm</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N7F00000F5blA</field>
+            <field>00N7F00000F5KLn</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N7F00000F5blB</field>
+            <field>00N7F00000N28Jc</field>
+            <label>Fieldsopp</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7F00000F5KLo</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N7F00000F5blC</field>
+            <field>00N7F00000F5KLp</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N7F00000F5blD</field>
+            <field>00N7F00000F5KLq</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -495,11 +513,13 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N7F00000F5bl9</field>
-            <field>00N7F00000F5blA</field>
-            <field>00N7F00000F5blB</field>
-            <field>00N7F00000F5blC</field>
-            <field>00N7F00000F5blD</field>
+            <field>00N7F00000LeSXf</field>
+            <field>00N7F00000F5KLm</field>
+            <field>00N7F00000F5KLn</field>
+            <field>00N7F00000N28Jc</field>
+            <field>00N7F00000F5KLo</field>
+            <field>00N7F00000F5KLp</field>
+            <field>00N7F00000F5KLq</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -660,23 +680,31 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N7F00000F5bl9</field>
+            <field>00N7F00000LeSXf</field>
+            <label>A New Improved and amazing checkbox</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7F00000F5KLm</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N7F00000F5blA</field>
+            <field>00N7F00000F5KLn</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N7F00000F5blB</field>
+            <field>00N7F00000N28Jc</field>
+            <label>Fieldsopp</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7F00000F5KLo</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N7F00000F5blC</field>
+            <field>00N7F00000F5KLp</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N7F00000F5blD</field>
+            <field>00N7F00000F5KLq</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -714,11 +742,13 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N7F00000F5bl9</field>
-            <field>00N7F00000F5blA</field>
-            <field>00N7F00000F5blB</field>
-            <field>00N7F00000F5blC</field>
-            <field>00N7F00000F5blD</field>
+            <field>00N7F00000LeSXf</field>
+            <field>00N7F00000F5KLm</field>
+            <field>00N7F00000F5KLn</field>
+            <field>00N7F00000N28Jc</field>
+            <field>00N7F00000F5KLo</field>
+            <field>00N7F00000F5KLp</field>
+            <field>00N7F00000F5KLq</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -875,23 +905,31 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N7F00000F5bl9</field>
+            <field>00N7F00000LeSXf</field>
+            <label>A New Improved and amazing checkbox</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7F00000F5KLm</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N7F00000F5blA</field>
+            <field>00N7F00000F5KLn</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N7F00000F5blB</field>
+            <field>00N7F00000N28Jc</field>
+            <label>Fieldsopp</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7F00000F5KLo</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N7F00000F5blC</field>
+            <field>00N7F00000F5KLp</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N7F00000F5blD</field>
+            <field>00N7F00000F5KLq</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -928,11 +966,13 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N7F00000F5bl9</field>
-            <field>00N7F00000F5blA</field>
-            <field>00N7F00000F5blB</field>
-            <field>00N7F00000F5blC</field>
-            <field>00N7F00000F5blD</field>
+            <field>00N7F00000LeSXf</field>
+            <field>00N7F00000F5KLm</field>
+            <field>00N7F00000F5KLn</field>
+            <field>00N7F00000N28Jc</field>
+            <field>00N7F00000F5KLo</field>
+            <field>00N7F00000F5KLp</field>
+            <field>00N7F00000F5KLq</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -1093,23 +1133,31 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N7F00000F5bl9</field>
+            <field>00N7F00000LeSXf</field>
+            <label>A New Improved and amazing checkbox</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7F00000F5KLm</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N7F00000F5blA</field>
+            <field>00N7F00000F5KLn</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N7F00000F5blB</field>
+            <field>00N7F00000N28Jc</field>
+            <label>Fieldsopp</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7F00000F5KLo</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N7F00000F5blC</field>
+            <field>00N7F00000F5KLp</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N7F00000F5blD</field>
+            <field>00N7F00000F5KLq</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -1147,11 +1195,13 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N7F00000F5bl9</field>
-            <field>00N7F00000F5blA</field>
-            <field>00N7F00000F5blB</field>
-            <field>00N7F00000F5blC</field>
-            <field>00N7F00000F5blD</field>
+            <field>00N7F00000LeSXf</field>
+            <field>00N7F00000F5KLm</field>
+            <field>00N7F00000F5KLn</field>
+            <field>00N7F00000N28Jc</field>
+            <field>00N7F00000F5KLo</field>
+            <field>00N7F00000F5KLp</field>
+            <field>00N7F00000F5KLq</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -1308,23 +1358,31 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N7F00000F5bl9</field>
+            <field>00N7F00000LeSXf</field>
+            <label>A New Improved and amazing checkbox</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7F00000F5KLm</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N7F00000F5blA</field>
+            <field>00N7F00000F5KLn</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N7F00000F5blB</field>
+            <field>00N7F00000N28Jc</field>
+            <label>Fieldsopp</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7F00000F5KLo</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N7F00000F5blC</field>
+            <field>00N7F00000F5KLp</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N7F00000F5blD</field>
+            <field>00N7F00000F5KLq</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -1361,11 +1419,13 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N7F00000F5bl9</field>
-            <field>00N7F00000F5blA</field>
-            <field>00N7F00000F5blB</field>
-            <field>00N7F00000F5blC</field>
-            <field>00N7F00000F5blD</field>
+            <field>00N7F00000LeSXf</field>
+            <field>00N7F00000F5KLm</field>
+            <field>00N7F00000F5KLn</field>
+            <field>00N7F00000N28Jc</field>
+            <field>00N7F00000F5KLo</field>
+            <field>00N7F00000F5KLp</field>
+            <field>00N7F00000F5KLq</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -1522,23 +1582,31 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N7F00000F5bl9</field>
+            <field>00N7F00000LeSXf</field>
+            <label>A New Improved and amazing checkbox</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7F00000F5KLm</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N7F00000F5blA</field>
+            <field>00N7F00000F5KLn</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N7F00000F5blB</field>
+            <field>00N7F00000N28Jc</field>
+            <label>Fieldsopp</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7F00000F5KLo</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N7F00000F5blC</field>
+            <field>00N7F00000F5KLp</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N7F00000F5blD</field>
+            <field>00N7F00000F5KLq</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -1575,11 +1643,13 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N7F00000F5bl9</field>
-            <field>00N7F00000F5blA</field>
-            <field>00N7F00000F5blB</field>
-            <field>00N7F00000F5blC</field>
-            <field>00N7F00000F5blD</field>
+            <field>00N7F00000LeSXf</field>
+            <field>00N7F00000F5KLm</field>
+            <field>00N7F00000F5KLn</field>
+            <field>00N7F00000N28Jc</field>
+            <field>00N7F00000F5KLo</field>
+            <field>00N7F00000F5KLp</field>
+            <field>00N7F00000F5KLq</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -1736,23 +1806,31 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N7F00000F5bl9</field>
+            <field>00N7F00000LeSXf</field>
+            <label>A New Improved and amazing checkbox</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7F00000F5KLm</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N7F00000F5blA</field>
+            <field>00N7F00000F5KLn</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N7F00000F5blB</field>
+            <field>00N7F00000N28Jc</field>
+            <label>Fieldsopp</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7F00000F5KLo</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N7F00000F5blC</field>
+            <field>00N7F00000F5KLp</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N7F00000F5blD</field>
+            <field>00N7F00000F5KLq</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -1789,11 +1867,13 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N7F00000F5bl9</field>
-            <field>00N7F00000F5blA</field>
-            <field>00N7F00000F5blB</field>
-            <field>00N7F00000F5blC</field>
-            <field>00N7F00000F5blD</field>
+            <field>00N7F00000LeSXf</field>
+            <field>00N7F00000F5KLm</field>
+            <field>00N7F00000F5KLn</field>
+            <field>00N7F00000N28Jc</field>
+            <field>00N7F00000F5KLo</field>
+            <field>00N7F00000F5KLp</field>
+            <field>00N7F00000F5KLq</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -1954,23 +2034,31 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N7F00000F5bl9</field>
+            <field>00N7F00000LeSXf</field>
+            <label>A New Improved and amazing checkbox</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7F00000F5KLm</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N7F00000F5blA</field>
+            <field>00N7F00000F5KLn</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N7F00000F5blB</field>
+            <field>00N7F00000N28Jc</field>
+            <label>Fieldsopp</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7F00000F5KLo</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N7F00000F5blC</field>
+            <field>00N7F00000F5KLp</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N7F00000F5blD</field>
+            <field>00N7F00000F5KLq</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -2008,11 +2096,13 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N7F00000F5bl9</field>
-            <field>00N7F00000F5blA</field>
-            <field>00N7F00000F5blB</field>
-            <field>00N7F00000F5blC</field>
-            <field>00N7F00000F5blD</field>
+            <field>00N7F00000LeSXf</field>
+            <field>00N7F00000F5KLm</field>
+            <field>00N7F00000F5KLn</field>
+            <field>00N7F00000N28Jc</field>
+            <field>00N7F00000F5KLo</field>
+            <field>00N7F00000F5KLp</field>
+            <field>00N7F00000F5KLq</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -2169,23 +2259,31 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N7F00000F5bl9</field>
+            <field>00N7F00000LeSXf</field>
+            <label>A New Improved and amazing checkbox</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7F00000F5KLm</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N7F00000F5blA</field>
+            <field>00N7F00000F5KLn</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N7F00000F5blB</field>
+            <field>00N7F00000N28Jc</field>
+            <label>Fieldsopp</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7F00000F5KLo</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N7F00000F5blC</field>
+            <field>00N7F00000F5KLp</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N7F00000F5blD</field>
+            <field>00N7F00000F5KLq</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -2222,11 +2320,13 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N7F00000F5bl9</field>
-            <field>00N7F00000F5blA</field>
-            <field>00N7F00000F5blB</field>
-            <field>00N7F00000F5blC</field>
-            <field>00N7F00000F5blD</field>
+            <field>00N7F00000LeSXf</field>
+            <field>00N7F00000F5KLm</field>
+            <field>00N7F00000F5KLn</field>
+            <field>00N7F00000N28Jc</field>
+            <field>00N7F00000F5KLo</field>
+            <field>00N7F00000F5KLp</field>
+            <field>00N7F00000F5KLq</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -2383,23 +2483,31 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N7F00000F5bl9</field>
+            <field>00N7F00000LeSXf</field>
+            <label>A New Improved and amazing checkbox</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7F00000F5KLm</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N7F00000F5blA</field>
+            <field>00N7F00000F5KLn</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N7F00000F5blB</field>
+            <field>00N7F00000N28Jc</field>
+            <label>Fieldsopp</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7F00000F5KLo</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N7F00000F5blC</field>
+            <field>00N7F00000F5KLp</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N7F00000F5blD</field>
+            <field>00N7F00000F5KLq</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -2436,11 +2544,13 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N7F00000F5bl9</field>
-            <field>00N7F00000F5blA</field>
-            <field>00N7F00000F5blB</field>
-            <field>00N7F00000F5blC</field>
-            <field>00N7F00000F5blD</field>
+            <field>00N7F00000LeSXf</field>
+            <field>00N7F00000F5KLm</field>
+            <field>00N7F00000F5KLn</field>
+            <field>00N7F00000N28Jc</field>
+            <field>00N7F00000F5KLo</field>
+            <field>00N7F00000F5KLp</field>
+            <field>00N7F00000F5KLq</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -2597,23 +2707,31 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N7F00000F5bl9</field>
+            <field>00N7F00000LeSXf</field>
+            <label>A New Improved and amazing checkbox</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7F00000F5KLm</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N7F00000F5blA</field>
+            <field>00N7F00000F5KLn</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N7F00000F5blB</field>
+            <field>00N7F00000N28Jc</field>
+            <label>Fieldsopp</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7F00000F5KLo</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N7F00000F5blC</field>
+            <field>00N7F00000F5KLp</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N7F00000F5blD</field>
+            <field>00N7F00000F5KLq</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -2650,11 +2768,13 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N7F00000F5bl9</field>
-            <field>00N7F00000F5blA</field>
-            <field>00N7F00000F5blB</field>
-            <field>00N7F00000F5blC</field>
-            <field>00N7F00000F5blD</field>
+            <field>00N7F00000LeSXf</field>
+            <field>00N7F00000F5KLm</field>
+            <field>00N7F00000F5KLn</field>
+            <field>00N7F00000N28Jc</field>
+            <field>00N7F00000F5KLo</field>
+            <field>00N7F00000F5KLp</field>
+            <field>00N7F00000F5KLq</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
