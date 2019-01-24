@@ -5,7 +5,7 @@ This read-only file shows the class's global constructors,
 methods, variables, and properties.
 To enable code to compile, all methods return null.
 */
-global class IndexMetadataJob implements Database.Batchable<SObject>, System.Schedulable {
+global class IndexMetadataJob implements Database.Batchable<SObject>, Database.Stateful, System.Schedulable {
     global IndexMetadataJob() {
 
     }
