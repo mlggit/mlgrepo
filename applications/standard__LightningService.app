@@ -1,35 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
     <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <label>Service Console</label>
     <navType>Console</navType>
-    <setupExperience>ServiceSetup</setupExperience>
-    <tab>standard-Case</tab>
-    <tab>standard-Contact</tab>
-    <tab>standard-Account</tab>
-    <tab>standard-report</tab>
-    <tab>standard-Dashboard</tab>
-    <tab>standard-home</tab>
+    <setupExperience>service</setupExperience>
+    <tabs>standard-Case</tabs>
+    <tabs>standard-Contact</tabs>
+    <tabs>standard-Account</tabs>
+    <tabs>standard-report</tabs>
+    <tabs>standard-Dashboard</tabs>
+    <tabs>standard-home</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>LightningService_UtilityBar</utilityBar>
-    <workspaceMappings>
-        <mapping>
+    <workspaceConfig>
+        <mappings>
             <tab>standard-Account</tab>
-        </mapping>
-        <mapping>
+        </mappings>
+        <mappings>
             <tab>standard-Case</tab>
-        </mapping>
-        <mapping>
+        </mappings>
+        <mappings>
             <tab>standard-Contact</tab>
-        </mapping>
-        <mapping>
+        </mappings>
+        <mappings>
             <tab>standard-Dashboard</tab>
-        </mapping>
-        <mapping>
+        </mappings>
+        <mappings>
             <tab>standard-home</tab>
-        </mapping>
-        <mapping>
+        </mappings>
+        <mappings>
             <tab>standard-report</tab>
-        </mapping>
-    </workspaceMappings>
+        </mappings>
+    </workspaceConfig>
 </CustomApplication>

@@ -1,10 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
-    <labels>
-        <fullName>Sweeed_Test</fullName>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>Sweeed Test</shortDescription>
-        <value>Sweeed Test</value>
-    </labels>
-</CustomLabels>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata"/>
+
