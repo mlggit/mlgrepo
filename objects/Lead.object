@@ -131,20 +131,6 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
-        <fullName>FieldsofLead__c</fullName>
-        <description>FieldsofLead</description>
-        <externalId>false</externalId>
-        <inlineHelpText>FieldsofLead</inlineHelpText>
-        <label>FieldsofLead</label>
-        <required>true</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetName>Value_Pickingz</valueSetName>
-        </valueSet>
-    </fields>
-    <fields>
         <fullName>HasOptedOutOfEmail</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>

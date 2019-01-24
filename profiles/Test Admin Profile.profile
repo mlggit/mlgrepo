@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <custom>true</custom>
+    <layoutAssignments>
+        <layout>Case-Test Case Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Case-Test Case Layout</layout>
+        <recordType>Case.testrecordtype</recordType>
+    </layoutAssignments>
     <userLicense>Salesforce</userLicense>
     <userPermissions>
         <enabled>true</enabled>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- A new picking --></label>
+        <name>A_new_picking__c</name>
+    </fields>
+    <fields>
+        <label><!-- Active --></label>
+        <name>Active__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Case --></label>
+        <name>Case__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Customer Priority --></label>
+        <name>CustomerPriority__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- New checkzz --></label>
+        <name>New_checkzz__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Locations --></label>
+        <name>NumberofLocations__c</name>
+    </fields>
+    <fields>
+        <label><!-- SLA Expiration Date --></label>
+        <name>SLAExpirationDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- SLA Serial Number --></label>
+        <name>SLASerialNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- SLA --></label>
+        <name>SLA__c</name>
+        <picklistValues>
+            <masterLabel>Bronze</masterLabel>
+            <translation><!-- Bronze --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gold</masterLabel>
+            <translation><!-- Gold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Platinum</masterLabel>
+            <translation><!-- Platinum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Silver</masterLabel>
+            <translation><!-- Silver --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Test Labelz --></label>
+        <name>Test_Labelz__c</name>
+    </fields>
+    <fields>
+        <label><!-- Test Pickz --></label>
+        <name>Test_Pickz__c</name>
+        <picklistValues>
+            <masterLabel>Newww</masterLabel>
+            <translation><!-- Newww --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Test</masterLabel>
+            <translation><!-- Test --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Translating test --></label>
+        <name>Translating_test__c</name>
+        <picklistValues>
+            <masterLabel>ENglish2</masterLabel>
+            <translation>SWedish2</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ENglish3</masterLabel>
+            <translation>SWedish3</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NewENglish1</masterLabel>
+            <translation>SWedish1</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Upsell Opportunity --></label>
+        <name>UpsellOpportunity__c</name>
+        <picklistValues>
+            <masterLabel>Maybe</masterLabel>
+            <translation><!-- Maybe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- test custfield --></help>
+        <label><!-- test custfield --></label>
+        <name>test_custfield__c</name>
+    </fields>
+    <fields>
+        <label><!-- tets checkz --></label>
+        <name>tets_checkz__c</name>
+    </fields>
+    <recordTypes>
+        <description><!-- A_Testing_pickingz --></description>
+        <label><!-- A Testing pickingz --></label>
+        <name>A_Testing_pickingz</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Test Record Type --></label>
+        <name>Test_Record_Type</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- Billing_i_changed --></label>
+        <name>Billing_i_changed</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Buttest --></label>
+        <name>Buttest</name>
+    </webLinks>
+</CustomObjectTranslation>

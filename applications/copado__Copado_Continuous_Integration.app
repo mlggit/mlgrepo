@@ -2,13 +2,15 @@
 <CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
     <defaultLandingTab>copado__Continuous_Integration__c</defaultLandingTab>
     <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <label>Copado Continuous Integration</label>
     <logo>copado__Copado/copado__Copado_Logo.png</logo>
-    <tab>copado__Org__c</tab>
-    <tab>copado__Git_Repository__c</tab>
-    <tab>copado__Continuous_Integration__c</tab>
-    <tab>copado__Deployment__c</tab>
-    <tab>copado__Environment__c</tab>
-    <tab>copado__Account_Summary</tab>
-    <tab>copado__Scheduled_Job__c</tab>
+    <tabs>copado__Org__c</tabs>
+    <tabs>copado__Git_Repository__c</tabs>
+    <tabs>copado__Continuous_Integration__c</tabs>
+    <tabs>copado__Deployment__c</tabs>
+    <tabs>copado__Environment__c</tabs>
+    <tabs>copado__Account_Summary</tabs>
+    <tabs>copado__Scheduled_Job__c</tabs>
 </CustomApplication>

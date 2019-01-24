@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Account</entityName>
+    <fieldName>Test_Pickz__c</fieldName>
+    <masterLabel>testsalespath</masterLabel>
+    <pathAssistantSteps>
+        <fieldNames>AccountNumber</fieldNames>
+        <info>&lt;p&gt;kjill urself&lt;/p&gt;</info>
+        <picklistValueName>Test</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>Test_Record_Type</recordTypeName>
+</PathAssistant>
